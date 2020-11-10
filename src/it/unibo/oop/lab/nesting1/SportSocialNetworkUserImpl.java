@@ -140,7 +140,11 @@ public class SportSocialNetworkUserImpl<U extends User> extends SocialNetworkUse
      * Complete the definition of this static inner class defining a Sport along
      * with its bare name.
      */
-    
+    /**
+     * 
+     * Nested class using for the sports implementation
+     *
+     */
     public static final class Sport {
         /*
          * TODO
@@ -149,14 +153,28 @@ public class SportSocialNetworkUserImpl<U extends User> extends SocialNetworkUse
          * very same name. Remember that you must also redefine hashCode()!
          */
     	/*Campi*/
+    	/**
+         * 
+         *  Used for the name of sport
+         */
     	private final String name;
     	
     	/*Costruttore*/
+    	/**
+         * 
+         *  Used for modify the name of sport
+         *  @param name assign the name of sport
+         */
     	public Sport(String name) {
 			this.name = name;
 		}
     	
     	/*Metodi*/
+    	/**
+         * 
+         *  Used to take the name of sport
+         *  @return the name of sport
+         */
     	public String getName() {
 			return this.name;
 		}
