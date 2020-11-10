@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.unibo.oop.lab.anonymous1"},{"l":"it.unibo.oop.lab.nesting1"},{"l":"it.unibo.oop.lab.socialnetwork"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.unibo.oop.jar.packages.pkg1"},{"l":"it.unibo.oop.jar.packages.pkg2"},{"l":"it.unibo.oop.jar.packages.pkg3"},{"l":"it.unibo.oop.lab.anonymous1"},{"l":"it.unibo.oop.lab.enum1"},{"l":"it.unibo.oop.lab.enum2"},{"l":"it.unibo.oop.lab.nesting1"},{"l":"it.unibo.oop.lab.socialnetwork"}]
