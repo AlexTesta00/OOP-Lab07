@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.unibo.oop.lab.anonymous1"},{"l":"it.unibo.oop.lab.socialnetwork"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"it.unibo.oop.lab.anonymous1"},{"l":"it.unibo.oop.lab.nesting1"},{"l":"it.unibo.oop.lab.socialnetwork"}]
