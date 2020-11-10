@@ -80,6 +80,17 @@ public final class TestAnonymousComparator {
         /*
          * expected Result
          */
+        /**
+         * Anonymous class used to order incrementally the age of denzel istance(whit a @link Comparator) 
+         * 
+         * @param denzelUsers 
+         * 			It's the list to reorder 
+         * @param Comparator<User>
+         * 			It's the Comparator used to compare the obj into a denzelUsers list
+         * @return 
+         * 			return The user with the youngest age
+         * 				
+         */
         Collections.sort(denzelUsers, new Comparator<User>() {
         	public int compare(User a, User b) {
         		return a.getAge()-b.getAge();
@@ -119,7 +130,17 @@ public final class TestAnonymousComparator {
         /*
          * expected Result
          */
-        
+        /**
+         * Anonymous class used to order decrementally the age of rossiUsers istance(whit a @link Comparator) 
+         * 
+         * @param rossiUsers 
+         * 			It's the list to reorder 
+         * @param Comparator<User>
+         * 			It's the Comparator used to compare the obj into a rossiUsers list
+         * @return 
+         * 			return The user with the oldest age
+         * 				
+         */
         Collections.sort(rossiUsers, new Comparator<User>() {
         	public int compare(User a, User b) {
         		return b.getAge() - a.getAge();
