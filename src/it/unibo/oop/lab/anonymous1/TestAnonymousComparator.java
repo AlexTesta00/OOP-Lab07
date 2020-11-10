@@ -93,7 +93,7 @@ public final class TestAnonymousComparator {
          */
         Collections.sort(denzelUsers, new Comparator<User>() {
         	public int compare(User a, User b) {
-        		return a.getAge()-b.getAge();
+        		return a.getAge() - b.getAge();
         	}
         });
         
