@@ -73,6 +73,20 @@ public enum Sport {
 	public boolean isIndividualSport() {
 		return (this.noTeamMembers <= 1)? true : false;
 	}
+	
+	public boolean isIndoorSport() {
+		return (this.place == place.INDOOR)? true:false;
+	}
+	
+	public Place getPlace() {
+		return this.place;
+	}
+	
+	public String toString() {
+		return "Nome : " + this.actualName +
+				"Members : " + this.noTeamMembers +
+				"Place : " + this.place;
+	}
     /*
      * TODO
      * 
